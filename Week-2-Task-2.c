@@ -7,7 +7,8 @@ int main()
  
     for(int i = 1; i <= 3; i++){
         for(int j = 1; j <= 3; j++){
-            printf("Baris %d Kolom %d : ",i,j);scanf("%d", &N[i][j]);
+            printf("Baris %d Kolom %d : ",i,j);
+            scanf("%d", &N[i][j]);
         }
     }
     printf("\nMatriks : \n");
